@@ -1,2 +1,5 @@
 ﻿def sumar(cadena: str) -> int:
-    return 0
+    if cadena == "":
+        return 0
+
+    return int(cadena)
