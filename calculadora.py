@@ -2,4 +2,5 @@
     if cadena == "":
         return 0
 
-    return int(cadena)
+    numeros = cadena.split(",")
+    return sum(int(numero) for numero in numeros)
